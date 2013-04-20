@@ -1,0 +1,5 @@
+‚±‚±‚Íã‘‚«”½‰f‚Å‚Í‚È‚¢‚Ì‚Åviews/_includes_pŒo—R
+
+views/application.html.erb¨page/includes_p ‚ğ“ü‚ê¨
+C:\Sites\my_plugin\app\views\page\_includes_p.html.erb‚©‚çŒÄ‚ñ‚Å”½‰f
+

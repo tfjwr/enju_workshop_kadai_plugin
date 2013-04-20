@@ -1,0 +1,32 @@
+<div class="header_and_footer">
+  <div id="footer">
+    <a href="https://github.com/nabeta/enju_leaf">Next-L Enju Leaf <%= EnjuLeaf::VERSION %></a>,
+    <%= t('page.open_source_integrated_library_system') -%> |
+    <%= link_to t('page.about_this_system'), page_about_path -%> |
+    <%= link_to t('page.report_bugs'), "https://github.com/nabeta/enju_leaf/issues" -%>
+    <% if is_mobile_request? %>
+      | <%= link_to t('page.mobile_view'), url_for(:mobile_view => 'true') %>
+    <% end %>
+    <br />
+    Developed by <a href="http://mwr.mediacom.keio.ac.jp/~tanabe/">Kosuke Tanabe</a> and <a href="http://www.next-l.jp/">Project Next-L</a>.
+  </div>
+
+  <div id="rails_status">
+	<table>
+	<tr>
+	<td>title(controller.controller_name)：</td><td><%= title(controller.controller_name) %></td></tr>
+	<tr>
+
+	<%- if controller.action_name =! nil -%>
+	<td>controller.action_name：</td><td><%= controller.action_name %></td></tr>
+	<tr>
+	<% end %>
+
+	<td>controller.controller_name：</td><td><%= controller.controller_name %></td></tr>
+	<tr>
+	<td>controller_name：</td><td><%= controller_name %></td></tr>
+	<tr>
+	<td>controller：</td><td><%= controller %></td></tr>
+	</table>
+	</div>
+</div>

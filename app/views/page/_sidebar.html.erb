@@ -1,0 +1,19 @@
+
+
+<div class="sidebar">
+
+    <%- unless controller.controller_name == 'blogs' -%>
+    <%= link_to "@blogs", blogs_path %>
+    <div class="text">
+      <% @blog = Blog.find(:first) %>
+    <%= @blog.title %>
+    </div>
+
+    <% else %>
+    <%= link_to "#{LibraryGroup.system_name(@locale)}に戻りましょう", root_path, :title => LibraryGroup.system_name(@locale) %>
+    <% end %>
+
+
+</div>
+
+

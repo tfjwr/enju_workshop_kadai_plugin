@@ -1,0 +1,63 @@
+div.sidebar{
+  width:100px;
+  height:100px;
+  position: fixed;
+  left: 90%;
+  background-color: lime;
+  padding:5px; 
+  margin: 3px; 
+  -moz-border-radius: 70px;
+  -webkit-border-radius: 70px;
+  border-radius: 70px;
+
+}
+div.sidebar a{
+  font-size: 28px;
+  margin-top: 34px;
+  display: inline-block;
+  font-family: Comic Sans MS;
+  text-decoration: none;
+}
+div.sidebar a:hover{
+  color:white;
+}
+div.sidebar div.text{
+  font-family: monospace;
+  font-sixze: 10px;
+  display: inline-block;
+  margin: 8px 15px;
+}
+
+body.blog {
+  background-color:snow;
+}
+
+body.blog div#content{
+  width:911px;
+    box-shadow:		12px 9px 35px 6px #eee;
+  -moz-box-shadow:	12px 9px 35px 6px #eee;
+  -webkit-box-shadow:	12px 9px 35px 6px #eee;
+}
+
+body.blog .ui-widget-header {
+    background: repeat-x scroll 50% 50% lime;
+    border: 1px solid #AAAAAA;
+    color: #222222;
+    font-weight: bold;
+}
+body.blog table{
+  width: 900px;
+}
+
+
+div#rails_status{
+  width: 900px;
+  background-color:#eee; 
+  padding:5px; 
+  margin: 3px; 
+}
+div#rails_status table{
+  width: 96%; 
+  margin: auto;
+}
+

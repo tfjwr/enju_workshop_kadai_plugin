@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<%= @locale.to_s -%>" lang="<%= @locale.to_s -%>">
+<head>
+  <meta charset="UTF-8" />
+  <%= render 'page/include' %>
+  <%= render 'page/include_p' %>
+  <title><%= controller.controller_name %></title>
+</head>
+
+<body class="<%= yield :body_class %>" >
+
+<%= render 'page/header' %>
+
+<%= render 'page/menu' %>
+
+<div id="content">
+
+<%= yield %>
+
+</div>
+
+<%= render 'page/sidebar' %>
+
+<%= render 'page/footer' %>
+
+</body>
+</html>
